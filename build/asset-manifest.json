@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sebdak.github.io/static/css/main.d1b05096.chunk.css",
+    "main.js": "/sebdak.github.io/static/js/main.0432f7e9.chunk.js",
+    "main.js.map": "/sebdak.github.io/static/js/main.0432f7e9.chunk.js.map",
+    "runtime-main.js": "/sebdak.github.io/static/js/runtime-main.432a7a18.js",
+    "runtime-main.js.map": "/sebdak.github.io/static/js/runtime-main.432a7a18.js.map",
+    "static/js/2.b6fabe4d.chunk.js": "/sebdak.github.io/static/js/2.b6fabe4d.chunk.js",
+    "static/js/2.b6fabe4d.chunk.js.map": "/sebdak.github.io/static/js/2.b6fabe4d.chunk.js.map",
+    "index.html": "/sebdak.github.io/index.html",
+    "precache-manifest.0a7ce4439707d8e760f2175fcb266db0.js": "/sebdak.github.io/precache-manifest.0a7ce4439707d8e760f2175fcb266db0.js",
+    "service-worker.js": "/sebdak.github.io/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/sebdak.github.io/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.b6fabe4d.chunk.js.LICENSE": "/sebdak.github.io/static/js/2.b6fabe4d.chunk.js.LICENSE",
+    "static/media/logo.svg": "/sebdak.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.432a7a18.js",
+    "static/js/2.b6fabe4d.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.0432f7e9.chunk.js"
+  ]
+}

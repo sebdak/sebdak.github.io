@@ -2,3 +2,7 @@ url: "sebdak.github.io" # the base hostname & protocol for your site, e.g. http:
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Sebastian Knudsen" # the name of your site, e.g. ACME Corp.
 source: source
+collections:
+  pages:
+    output: true # Set to render files in _pages folder
+    permalink: /:title/ # Set the format of the permalink by default

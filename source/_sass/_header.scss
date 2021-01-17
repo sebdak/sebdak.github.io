@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  margin-left: $right-sidebar-width;
+
+  &__logo {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: $right-sidebar-width;
+    justify-content: center;
+    padding: 2rem 1rem;
+
+    img {
+      width: 10rem;
+    }
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .header {
+    background-color: $charcoal;
+    margin-left: 0;
+    display: block;
+
+    &__logo {
+      display: block;
+      position: static;
+      // padding: 1rem 0.5rem;
+      width: 100%;
+
+      img {
+        width: 8rem;
+      }
+    }
+  }
+}

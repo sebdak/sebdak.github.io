@@ -44,8 +44,16 @@
 
 @media only screen and (max-width: $mobile) {
   .sidebar {
-    // display: none;
+    display: none; // set to flex on pages that should display sidebar
+    visibility: hidden; // set to visible on pages that should display sidebar
+
     position: static;
     width: 100%;
+  }
+
+  .profile {
+    &__picture {
+      width: 40%;
+    }
   }
 }

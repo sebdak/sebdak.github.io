@@ -33,7 +33,7 @@ $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
 
 /* headline scale */
-$h-size-1: 1.563em !default; // ~25.008px
+$h-size-1: 1.863em !default; // ~25.008px
 $h-size-2: 1.25em !default; // ~20px
 $h-size-3: 1.125em !default; // ~18px
 $h-size-4: 1.0625em !default; // ~17px
@@ -48,6 +48,7 @@ $beige: #fffcf2 !default;
 $gray: #ccc5b9 !default;
 $dark-gray: #403d39 !default;
 $charcoal: #252422 !default;
+$orange: #eb5e28 !default;
 
 $background-color: $beige !default;
 $text-color: $charcoal !default;
@@ -64,9 +65,12 @@ $focus-color: $primary-color !default;
 $active-color: mix(#fff, $primary-color, 80%) !default;
 
 /* links */
-$link-color: mix(#000, $info-color, 20%) !default;
-$link-color-hover: mix(#000, $link-color, 25%) !default;
-$link-color-visited: mix(#fff, $link-color, 15%) !default;
+$link-color: $dark-gray;
+$link-color-hover: $dark-gray;
+$link-color-visited: $dark-gray;
+// $link-color: mix(#000, $info-color, 20%) !default;
+// $link-color-hover: mix(#000, $link-color, 25%) !default;
+// $link-color-visited: mix(#fff, $link-color, 15%) !default;
 
 /*
    Breakpoints

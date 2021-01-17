@@ -21,6 +21,11 @@ body {
 main {
   margin-left: $right-sidebar-width;
   padding: 4rem;
+
+  h1::after {
+    display: block;
+    content: url("/assets/svg/three-dots.svg");
+  }
 }
 
 footer {
@@ -237,7 +242,7 @@ input[type="submit"],
 @media only screen and (max-width: $mobile) {
   main {
     margin-left: 0;
-    padding: 1.5rem;
+    padding: 3rem 1.5rem;
   }
 
   footer {

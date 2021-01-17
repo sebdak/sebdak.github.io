@@ -1,0 +1,59 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100%;
+  width: $right-sidebar-width;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: $beige;
+  background-color: $charcoal;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__picture {
+    border-radius: 50%;
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+}
+
+.social {
+  &__item:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  .sidebar {
+    display: none; // set to flex on pages that should display sidebar
+    visibility: hidden; // set to visible on pages that should display sidebar
+
+    position: static;
+    width: 100%;
+  }
+
+  .profile {
+    &__picture {
+      width: 40%;
+    }
+  }
+}

@@ -4,4 +4,4 @@
 .jekyll-metadata
 .sass-cache/
 _site/
-vendor/
+vendor/bundle

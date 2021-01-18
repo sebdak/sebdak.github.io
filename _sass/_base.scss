@@ -99,6 +99,8 @@ blockquote {
 /* links */
 
 a {
+  color: $link-color;
+
   &:visited {
     color: $link-color-visited;
   }

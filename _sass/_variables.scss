@@ -65,12 +65,12 @@ $focus-color: $primary-color !default;
 $active-color: mix(#fff, $primary-color, 80%) !default;
 
 /* links */
-$link-color: $dark-gray;
-$link-color-hover: $dark-gray;
-$link-color-visited: $dark-gray;
-// $link-color: mix(#000, $info-color, 20%) !default;
-// $link-color-hover: mix(#000, $link-color, 25%) !default;
-// $link-color-visited: mix(#fff, $link-color, 15%) !default;
+// $link-color: $dark-gray;
+// $link-color-hover: $dark-gray;
+// $link-color-visited: $dark-gray;
+$link-color: mix(#000, $info-color, 20%) !default;
+$link-color-hover: mix(#000, $link-color, 25%) !default;
+$link-color-visited: mix(#fff, $link-color, 15%) !default;
 
 /*
    Breakpoints

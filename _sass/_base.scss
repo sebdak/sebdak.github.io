@@ -21,6 +21,7 @@ body {
 main {
   margin-left: $right-sidebar-width;
   padding: 4rem;
+  max-width: 60rem;
 
   h1::after {
     display: block;

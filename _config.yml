@@ -1,6 +1,6 @@
 url: "https://sebdak.dev" # the base hostname & protocol for your site, e.g. http://example.com
 title: Sebastian Knudsen
-discription: Software engineer, graphic designer and photographer
+description: Software engineer, graphic designer and photographer
 sass:
   sass_dir: _sass
   style: compressed

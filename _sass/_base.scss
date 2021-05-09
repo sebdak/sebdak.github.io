@@ -23,9 +23,28 @@ main {
   padding: 4rem;
   max-width: 60rem;
 
+  animation-name: fadein;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+
   h1::after {
     display: block;
     content: url("/assets/svg/three-dots.svg");
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(-25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
 

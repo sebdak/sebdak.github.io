@@ -4,5 +4,16 @@ title: "Blog"
 permalink: /blog/
 ---
 
-<h1>Blog</h1>
-<p>This page is a work in progress</p>
+<h1>{{ page.title }}</h1>
+
+<ul class="blog-posts">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">
+      <p class="date"><strong>{{ post.date | date: "%b %Y"}}</strong></p>
+      <h2>{{ post.title }}</h3>
+      <p>{{ post.excerpt | truncatewords: 15, '...' }}</p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

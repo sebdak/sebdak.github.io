@@ -21,10 +21,10 @@ body {
 main {
   margin-left: $right-sidebar-width;
   padding: 4rem;
-  max-width: 60rem;
+  max-width: 50rem;
 
   animation-name: fadein;
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-out;
 
   h1::after {
@@ -36,11 +36,11 @@ main {
 @keyframes fadein {
   0% {
     opacity: 0;
-    transform: translateY(-25px);
+    transform: translateY(-20px);
   }
   20% {
     opacity: 0;
-    transform: translateY(-25px);
+    transform: translateY(-20px);
   }
   100% {
     opacity: 1;
